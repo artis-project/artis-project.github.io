@@ -13,7 +13,9 @@ ARTIS-project is a artwork tracking prototype system combining IoT and Blockchai
 - [artis-smartcontract:](https://github.com/artis-project/artis-smartcontract) The smart contract written in Solidity defines an ERC-721 NFT token that digitally represents an artwork. Each token stores details about the artwork including the actors of the transporation process. This includes the carrier, owner, recipient, and logger. All of these actors / components are identified by their Ethereum account. Additonally, the smart contract implements a role based authorization that manages read / write access to the artwork data.
 - [artis-frontend:](https://github.com/artis-project/artis-frontend) To easily authenticate and interact with the system, the project includes a small user interface. The frontend consists of three main views: login view, home view, detail view. The login view guides the user through the authentication process, which uses the Metamask wallet to sign a message to provide proof-of-ownership. The home view shows an overview of all artwork IDs the user is registered with and a button that creates a new artwork NFT. The detail view is presented if the user clicks on a specific artwork ID and shows all the detail about the artwork. This includes the status of the artwork, a timestamp of the latest violation (if any) and more. Check it out:
 
-<a style="text-align: center;" href="https://artis-project.github.io/artis-frontend">https://artis-project.github.io/artis-frontend</a>
+<div style="text-align: center;">
+    <a href="https://artis-project.github.io/artis-frontend"> https://artis-project.github.io/artis-frontend</a>
+</div>
 
 ## More information
 To read more about the artis-project visit <a href="https://artis-project.github.io/artis-thesis">https://artis-project.github.io/artis-thesis</a>
